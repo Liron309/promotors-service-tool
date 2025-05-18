@@ -135,7 +135,7 @@ export default function ServiceAdvisorTool() {
   };
 
   return (
-    <div style={ maxWidth: '600px', margin: 'auto', padding: '20px' }>
+<div style={{ maxWidth: '600px', margin: 'auto', padding: '20px' }}>
       <h2>מערכת ייעוץ טיפולים לרכב</h2>
       <input placeholder="יצרן (לדוג׳: Toyota)" onChange={e => setManufacturer(e.target.value)} /><br />
       <input placeholder="דגם (לדוג׳: Corolla)" onChange={e => setModel(e.target.value)} /><br />
